@@ -1,14 +1,25 @@
 body {
+    background-color: #45434f;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+section main-content {
+    background-color: #45434f;
+}
+
 header {
-    background-color: #333;
+    background-color: #ffffff;
     color: white;
-    padding: 15px;
-    text-align: center;
+    padding: 20px;
+    text-align: right;
+}
+
+sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
 }
 
 nav ul {
@@ -22,21 +33,7 @@ nav li {
     margin-right: 20px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
 section {
-    padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    color: #D01D1D;
+    padding: 30px;
 }
